@@ -81,7 +81,7 @@ while True:
 			  {"dataChnId":"SwitchStatus","values":{"value":SwitchStatus}}]}
  
 		post_to_mcs(payload)
-		time.sleep(10) 
+		time.sleep(1) 
 	else:
    		print('Failed to get reading. Try again!')
    		sys.exit(1)
